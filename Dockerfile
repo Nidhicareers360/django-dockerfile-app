@@ -5,10 +5,10 @@ FROM python:3.8
 WORKDIR /django-dockerfile-app
 
 # Copy the requirements.txt file to the container
-COPY requirements.txt .
+COPY requirement.txt .
 
 # Install the Python dependencies
-RUN pip install -r requirements.txt
+RUN pip install -r requirement.txt
 
 # Copy the rest of the application code to the container
 COPY . .
