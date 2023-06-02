@@ -9,4 +9,4 @@ RUN pip install -r requirement.txt
 
 EXPOSE 8055
 
-CMD [ "python3", "manage.py", "runserver" ]
+CMD [ "python3", "manage.py", "runserver","8055" ]
